@@ -1,0 +1,151 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+.link {
+   padding: 0px 60px 0px 0px;
+}
+
+.navbar {
+   position: absolute;
+   background-color: #0F0F0F;
+   width: 100%;
+   height: 80px;
+}
+
+.nav-link {
+   margin-left: 1100px;
+   gap: 40px;
+   margin-top: -35px;
+}
+
+.img-1 {
+   position: absolute;
+   top: 80px;
+   width: 100%;
+   z-index: -1;
+}
+
+.img-2 {
+   margin-top: 270px;
+   margin-left: 820px;
+}
+
+.img-3  {
+   margin-top: -700px;
+   margin-left: 960px;
+}
+
+.img-4 {
+   margin-top: -30px;
+}
+
+.p-1 {
+   margin-top: 20px;
+   margin-left: 250px;
+   color: #FFF;
+   font-family: Post No Bills Jaffna;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.p-2 {
+   margin-top: 80px;
+   color: #FFF;
+   text-align: center;
+   font-family: PT Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%; 
+   text-transform: uppercase;
+}
+
+.p-3 {
+   margin-top: 130px;
+   color:  #FFF;
+   text-align: center;
+   font-family: Playfair Display;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+.carousel-item {
+   margin-top: 99px;
+   z-index: -2;
+   width: 400px;
+   height: 700px;
+}
+
+.section-2 {
+   position: absolute;
+   background-color: black;
+   width: 100%;
+   height: 1290px;
+}
+
+.group {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+}
+
+
+@media (max-width:450px) {
+   .section-1 {
+      width: 200px;
+      height: 200px;
+      margin-left: 0px;
+      margin-top: -90px;
+   }
+   .section-2 {
+      display: none;
+      margin-top: 200px;
+      height: 200px;
+      width: 200px;
+   }
+   .p-1 {
+      margin-left: 20px;
+      font-size: 30px;
+   }
+   .p-2 {
+      font-size: 5px;
+      margin-left: 0px;
+      margin-top: 0px;
+   }
+   .nav-link {
+      display: none;
+   }
+   .img-3 {
+      margin-top: -1120px;
+      margin-left: 200px;
+      height: 300px;
+      width: 100%;
+   }
+   .img-2 {
+      margin-top: 100px;
+      margin-left: 160px;
+      width: 70px;
+      height: 70px;
+   }
+   .img-5 {
+      
+      width: 100%;
+   }
+   .img-4 {
+      margin-top: -670px;
+      height: 200px;
+      width: 400px;
+   }
+}
